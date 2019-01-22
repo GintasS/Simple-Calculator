@@ -9,3 +9,6 @@ Features:<br>
   <li>Has a history of past mathematical expressions.</li>
   <li>Both the history box and the input box can be navigated using scrollbars!</li>  
 </ul>
+
+Calculator icon was taken from:<br>
+<a url='https://icons8.com/icon/21/calculator' target='_blank'>url</a>.
