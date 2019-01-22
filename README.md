@@ -10,5 +10,5 @@ Features:<br>
   <li>Both the history box and the input box can be navigated using scrollbars!</li>  
 </ul>
 
-Calculator icon was taken from:<br>
+Calculator icon was taken from:
 <a href='https://icons8.com/icon/21/calculator' target='_blank'>url</a>.
