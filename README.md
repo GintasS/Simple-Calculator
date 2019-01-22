@@ -1,6 +1,6 @@
 # Simple-Calculator
 This is a simple calculator that I made with C#.<br>
-Calculator was made to practise C# with OOP!
+Calculator was made to practise C# OOP!
 
 Features:<br>
 <ul>
