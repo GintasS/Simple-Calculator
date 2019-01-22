@@ -11,4 +11,4 @@ Features:<br>
 </ul>
 
 Calculator icon was taken from:<br>
-<a url='https://icons8.com/icon/21/calculator' target='_blank'>url</a>.
+<a href='https://icons8.com/icon/21/calculator' target='_blank'>url</a>.
