@@ -10,4 +10,8 @@ Features:<br>
   <li>Both the history box and the input box can be navigated using scrollbars!</li>  
 </ul>
 
+Images:<br><br>
 
+
+![](https://i.imgur.com/97ozUeA.png) 
+![](https://i.imgur.com/MJZoehd.png
