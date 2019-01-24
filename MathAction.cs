@@ -2,7 +2,7 @@
 
 namespace Calculator
 {
-    // Base class for all available math actions to take
+    // Base class for all math actions to take
     // in this calculator.
     abstract class MathAction : DisplaySymbol
     {

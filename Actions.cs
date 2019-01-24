@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Windows.Forms;
 
 namespace Calculator
 {
@@ -20,13 +21,16 @@ namespace Calculator
     {
         public override void ActionClick(object sender, EventArgs e)
         {
-            if (Form1.DisplayBox.Text[0] == '-')
-                Helper.DeleteOneChar(0);
-            else if (Form1.DisplayBox.Text[0] != '-')
+            if (Form1.DisplayBox.Text.Length >= 1)
             {
-                int index = (int)Constant.Symbol.Subtract;
-                Form1.DisplayBox.Text = Form1.DisplayBox.Text.Insert(0, 
-                    Constant.MathSymbols[index]);             
+                if (Form1.DisplayBox.Text[0] == '-')
+                    Helper.DeleteOneChar(0);
+                else
+                {
+                    int index = (int)Constant.Symbol.Subtract;
+                    Form1.DisplayBox.Text = Form1.DisplayBox.Text.Insert(0,
+                        Constant.MathSymbols[index]);
+                }
             }
         }
     }
@@ -82,14 +86,21 @@ namespace Calculator
     {
         public override void ActionClick(object sender, EventArgs e)
         {
-            string answer = Validation.TryUserInput(Form1.DisplayBox.Text) 
-                ?? null;
+            string answer = Validation.TryUserInput(Form1.DisplayBox.Text);
+            bool detectException = answer.Contains(Constant.ExceptionSymbol);
+            
 
-            if (answer != null)
+            if (answer != null && !detectException)
             {
                 double input = (double)Convert.ToDecimal(answer);
-                Form1.DisplayBox.Text = Math.Sqrt(input).ToString();
+
+                if (input >= 0)
+                    answer = Math.Sqrt(input).ToString();
+                else
+                   answer = Constant.CalculatorExceptions[0];
             }
+
+            Form1.DisplayBox.Text = answer;
         }
     }
 
@@ -97,11 +108,10 @@ namespace Calculator
     {
         public override void ActionClick(object sender, EventArgs e)
         {
-            string answer = Validation.TryUserInput("1 / " + 
-                Form1.DisplayBox.Text);
+            string answer = Validation.TryUserInput(
+                "1 / " + Form1.DisplayBox.Text);
 
-            if (answer != null)
-                Form1.DisplayBox.Text = answer;
+            Form1.DisplayBox.Text = answer;
         }
     }
 

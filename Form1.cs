@@ -8,7 +8,7 @@ namespace Calculator
         // Display box is a textbox where user puts input data.
         public static TextBox DisplayBox { get; set; }
 
-        // HistoryBox for displaying previous mathematical
+        // HistoryBox is for displaying previous mathematical
         // expressions.
         public static ListBox HistoryBox { get; set; }
 
@@ -25,7 +25,6 @@ namespace Calculator
             DisplayBox = Display;
             HistoryBox = HistoryListBox;
 
-            // Set click events for all the clickable buttons.
             InitNumberButtons();
             InitMainActionButtons();
             InitAdditionalButtons();
@@ -89,6 +88,9 @@ namespace Calculator
             SquareRootBTN.Click += new SquareRootAction().ActionClick;
             SquareBTN.Click += new SquareAction().ActionClick;
             FractionBTN.Click += new FractionAction().ActionClick;
+
+            DisplayBox.KeyPress += Validation.OnKeyPress;
+            DisplayBox.TextChanged += Validation.OnTextChange;
         }
     }
 }
