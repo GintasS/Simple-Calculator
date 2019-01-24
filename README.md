@@ -4,8 +4,8 @@ Calculator was made to practise C# OOP!
 
 <h3>CHANGELOG 1/23/2019</h3>
 <ul>
-  <li>Added input and paste validations, you no longer can put any external symbols that are not used in calculator.<li>
-  <li>Added exceptions for division by zero, NaN and invalid input.<li>
+  <li>Added input and paste validations, you no longer can put any external symbols that are not used in calculator.</li>
+  <li>Added exceptions for division by zero, NaN and invalid input.</li>
   <li>Added two way calculating process, if one fails, other takes over and tries to do the same expression.</li>
   <li>More small fixes, like code optimization, control placing and etc.</li>
 </ul>
