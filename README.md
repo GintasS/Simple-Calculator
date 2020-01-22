@@ -20,6 +20,7 @@ Calculator icon was taken from:
 ## <a name="Features"></a>Features
 
 <ul>
+  <li>Has error handling, will display information if user tries to enter illegal input.</li>
   <li>Has unit tests.</li>
   <li>Has a history of past mathematical expressions.</li>
   <li>Both the history box and the input box can be navigated using scrollbars!</li>  
@@ -79,6 +80,7 @@ Calculator icon was taken from:
   <li>Added new images and zip file.</li>
   <li>Some code optimization.</li>
   <li>Removed shortcuts for pasting data.</li>
+  <li>Bug fixes</li>
 </ul>
 
 
