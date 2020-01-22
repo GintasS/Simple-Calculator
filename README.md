@@ -29,39 +29,39 @@ Calculator icon was taken from:
 ## <a name="Media"></a>Media
 
 <a target="_blank" href="https://github.com/GintasS/Simple-Calculator/blob/master/images/Image1.JPG">
-  <img src="https://github.com/GintasS/Simple-Calculator/blob/master/images/Image1.JPG" height="400" style="max-width:100%;"></img>
+  <img src="https://github.com/GintasS/Simple-Calculator/blob/master/Images/Image1.JPG" height="300" style="max-width:100%;"></img>
 </a>
-<blockquote>Default window(1/24/2019)</blockquote>
+<blockquote>Default window(1/22/2020)</blockquote>
 <br>
 
 <a target="_blank" href="https://github.com/GintasS/Simple-Calculator/blob/master/images/Image2.JPG">
-  <img src="https://github.com/GintasS/Simple-Calculator/blob/master/images/Image2.JPG" height="400" style="max-width:100%;"></img>
+  <img src="https://github.com/GintasS/Simple-Calculator/blob/master/Images/Image2.JPG" height="300" style="max-width:100%;"></img>
 </a>
-<blockquote>Simple expression(1/24/2019)</blockquote>
+<blockquote>Simple expression(1/22/2020)</blockquote>
 <br>
 
 <a target="_blank" href="https://github.com/GintasS/Simple-Calculator/blob/master/images/Image3.JPG">
-  <img src="https://github.com/GintasS/Simple-Calculator/blob/master/images/Image3.JPG" height="400" style="max-width:100%;"></img>
+  <img src="https://github.com/GintasS/Simple-Calculator/blob/master/Images/Image3.JPG" height="300" style="max-width:100%;"></img>
 </a>
-<blockquote>Simple expression with history box showing last calculation(1/24/2019)</blockquote>
+<blockquote>Simple expression with history box showing last calculation(1/22/2020)</blockquote>
 <br>
 
 <a target="_blank" href="https://github.com/GintasS/Simple-Calculator/blob/master/images/Image4.JPG">
-  <img src="https://github.com/GintasS/Simple-Calculator/blob/master/images/Image4.JPG" height="400" style="max-width:100%;"></img>
+  <img src="https://github.com/GintasS/Simple-Calculator/blob/master/Images/Image4.JPG" height="300" style="max-width:100%;"></img>
 </a>
-<blockquote>Trying an illegal expression(1/24/2019)</blockquote>
+<blockquote>Trying an illegal expression(1/22/2020)</blockquote>
 <br>
 
 <a target="_blank" href="https://github.com/GintasS/Simple-Calculator/blob/master/images/Image5.JPG">
-  <img src="https://github.com/GintasS/Simple-Calculator/blob/master/images/Image5.JPG" height="400" style="max-width:100%;"></img>
+  <img src="https://github.com/GintasS/Simple-Calculator/blob/master/Images/Image5.JPG" height="300" style="max-width:100%;"></img>
 </a>
-<blockquote>Error window(1/24/2019)</blockquote>
+<blockquote>Error window(1/22/2020)</blockquote>
 <br>
 
 <a target="_blank" href="https://github.com/GintasS/Simple-Calculator/blob/master/images/Image6.JPG">
-  <img src="https://github.com/GintasS/Simple-Calculator/blob/master/images/Image6.JPG" height="400" style="max-width:100%;"></img>
+  <img src="https://github.com/GintasS/Simple-Calculator/blob/master/Images/Image6.JPG" height="300" style="max-width:100%;"></img>
 </a>
-<blockquote>Error window 2(1/24/2019)</blockquote>
+<blockquote>Simple expression(1/22/2020)</blockquote>
 <br>
 
 ## <a name="Changelog"></a>Changelog
@@ -73,3 +73,13 @@ Calculator icon was taken from:
   <li>Added two way calculating process, if one fails, other takes over and tries to do the same expression.</li>
   <li>More small fixes, like code optimization, control placing and etc.</li>
 </ul>
+<h3>CHANGELOG 1/22/2020</h3>
+<ul>
+  <li>Added unit tests.</li>
+  <li>Removed mathematical functions.</li>
+  <li>Added new images and zip file.</li>
+  <li>Some code optimization.</li>
+  <li>Removed shortcuts for pasting data.</li>
+</ul>
+
+
